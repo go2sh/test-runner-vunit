@@ -1,0 +1,26 @@
+{
+  "name": "test-runner-vunit",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "A test runner for vunit.",
+  "keywords": [
+    "test-runner",
+    "vunit",
+    "vhdl"
+  ],
+  "repository": "https://github.com/go2sh/test-runner-vunit",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "test-runner-service": {
+      "versions": {
+        "1.0.0": "provideTestRunner"
+      }
+    }
+  },
+  "dependencies": {
+    "event-kit" : "^2.2.0"
+  }
+}
