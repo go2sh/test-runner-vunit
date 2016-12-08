@@ -1,7 +1,7 @@
 {
   "name": "test-runner-vunit",
   "main": "./lib/main",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A test runner for vunit.",
   "keywords": [
     "test-runner",
@@ -21,6 +21,6 @@
     }
   },
   "dependencies": {
-    "event-kit" : "^2.2.0"
+    "event-kit": "^2.2.0"
   }
 }
